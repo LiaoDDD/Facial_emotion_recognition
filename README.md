@@ -1,9 +1,10 @@
 # FER
 This project is a real-time face emotion recognition system using a webcam feed. It utilizes __OpenCV__ data for face detection and __DeepFace__ for analyzing emotions. The output includes displaying the dominant emotion on the live camera feed and drawing a bounding box around faces.
+
 __Develop for course Image Processing(32479)__
 
 ## Features
-- The program uses a pre-trained Haar Cascade Classifier<span style="background-color: black; color: white; padding: 5px;"> (haarcascade_frontalface_default.xml)</span> from OpenCV to detect faces.
+- The program uses a pre-trained Haar Cascade Classifier `(haarcascade_frontalface_default.xml)` from OpenCV to detect faces.
 - Emotion analysis using the DeepFace library.
 - Displays the dominant emotion and draws bounding boxes around faces.
 
@@ -15,5 +16,6 @@ python FRE.py
 It will launch the webcam and start detecting faces.
 
 To quit:
-Press <span style="background-color: black; color: white; padding: 5px;">q</span>  to quit the application.
+
+Press `q`  to quit the application.
 
